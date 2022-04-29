@@ -5,7 +5,7 @@
  s.homepage     = "https://github.com/"
  s.license      = { :type => 'MIT', :file => 'LICENSE' }
  s.author       = { "xxx" => "aaa@xxx.com" }
- s.source       = { :http => "https://d3n5xqb6gw17ix.cloudfront.net/ios/smsdk_ios_2.6-2.6_normal_release.zip" }
+ s.source       = { :git => "https://github.com/holla-world/ShumeiSDK.git",:branch => 'master' }
  s.platform     = :ios, '10.0'
 
  # arc components
@@ -13,6 +13,7 @@
 # you static library`s .h file
  s.source_files = 'unique_device_id/class/include/**/*.h','unique_device_id/class/*.h'
  s.vendored_library = 'unique_device_id/class/*.a'
+ s.public_header_files = 'unique_device_id/DeviceIdImport.h'
  s.library         = "sqlite3"
  s.library         = "libresolv"
  s.library         = "z"
