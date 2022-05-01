@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
  s.name         = "shumeiDevice_Id"
- s.version      = "1.0.0"
+ s.version      = "1.0.2"
  s.summary      = "Unique Device Id Library"
  s.homepage     = "https://github.com/"
  s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,11 +9,11 @@
  s.platform     = :ios, '10.0'
 
  # arc components
- s.requires_arc = false
+ s.requires_arc = true
 # you static library`s .h file
- s.source_files = 'unique_device_id/class/include/**/*.h','unique_device_id/class/*.h'
- s.vendored_library = 'unique_device_id/class/*.a'
- s.public_header_files = 'unique_device_id/DeviceIdImport.h'
+ s.source_files = 'unique_device_id/class/include/**/*.h','unique_device_id/class/*.h','unique_device_id/class/*.m'
+ s.vendored_library = 'unique_device_id/Class/*.a'
+ s.public_header_files = 'unique_device_id/Class/DeviceIdImport.h','unique_device_id/Class/**/*.h'
  s.library         = "sqlite3"
  s.library         = "libresolv"
  s.library         = "z"

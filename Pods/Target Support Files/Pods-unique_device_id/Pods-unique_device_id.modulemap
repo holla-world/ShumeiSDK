@@ -1,0 +1,6 @@
+framework module Pods_unique_device_id {
+  umbrella header "Pods-unique_device_id-umbrella.h"
+
+  export *
+  module * { export * }
+}

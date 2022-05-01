@@ -1,0 +1,38 @@
+{
+  "name": "shumeiDevice_Id",
+  "version": "1.0.2",
+  "summary": "Unique Device Id Library",
+  "homepage": "https://github.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xxx": "aaa@xxx.com"
+  },
+  "source": {
+    "git": "https://github.com/holla-world/ShumeiSDK.git",
+    "branch": "master"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "unique_device_id/class/include/**/*.h",
+    "unique_device_id/class/*.h",
+    "unique_device_id/class/*.m"
+  ],
+  "vendored_libraries": "unique_device_id/Class/*.a",
+  "public_header_files": [
+    "unique_device_id/Class/DeviceIdImport.h",
+    "unique_device_id/Class/**/*.h"
+  ],
+  "libraries": "z",
+  "frameworks": [
+    "SystemConfiguration",
+    "AdSupport",
+    "CoreMotion",
+    "Security"
+  ]
+}

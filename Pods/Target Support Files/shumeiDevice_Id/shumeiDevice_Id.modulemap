@@ -1,0 +1,6 @@
+framework module shumeiDevice_Id {
+  umbrella header "shumeiDevice_Id-umbrella.h"
+
+  export *
+  module * { export * }
+}
