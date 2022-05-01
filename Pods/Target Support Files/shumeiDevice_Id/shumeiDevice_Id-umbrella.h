@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "ImportDeviceId.h"
-#import "SmAntiFraud.h"
+#import "shumeiDevice_Id.h"
 
 FOUNDATION_EXPORT double shumeiDevice_IdVersionNumber;
 FOUNDATION_EXPORT const unsigned char shumeiDevice_IdVersionString[];

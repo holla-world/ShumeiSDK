@@ -23,11 +23,8 @@
     "unique_device_id/class/*.h",
     "unique_device_id/class/*.m"
   ],
-  "vendored_libraries": "unique_device_id/Class/*.a",
-  "public_header_files": [
-    "unique_device_id/Class/DeviceIdImport.h",
-    "unique_device_id/Class/**/*.h"
-  ],
+  "vendored_libraries": "unique_device_id/Class/*.{h,m}",
+  "public_header_files": "unique_device_id/Class/shumeiDevice_Id.h",
   "libraries": "z",
   "frameworks": [
     "SystemConfiguration",

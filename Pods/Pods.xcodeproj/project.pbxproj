@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		157AA0CA4648384A14D93BC510647648 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4635E638B8A865DC3AB5CB52E6D63FF /* SystemConfiguration.framework */; };
-		1B03FA20B16C2D2970B9455A296A07F6 /* shumeiDevice_Id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BB1A940A8A67A04C8EA1396B4FFBB3 /* shumeiDevice_Id-dummy.m */; };
-		39847F6C8D45B068CB6CC3FE87B75BA7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9047EF2038CF7AA159A4DF59CB72659A /* Security.framework */; };
+		3E312DD88E3E8A50ADBC839F73D97D37 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E655E512C46EFD1F007030FEEE1753A /* CoreMotion.framework */; };
 		42ABC984B93F27F9E1ABDD157997A7AE /* Pods-unique_device_id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADE9DD56A32C1EFEDA2AC970977847C /* Pods-unique_device_id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5763235FEB7B67AF479956EC1C3E5DA0 /* ImportDeviceId.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B08D9EC1964A6810829271B898C2084 /* ImportDeviceId.m */; };
-		7B627B14E2FA089B77B528BBC3CF2D2A /* SmAntiFraud.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF4D9E1CAE519B929E586EFA0A99223 /* SmAntiFraud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4E03BCE6D9CA6E209CFBA2518F4F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F9003C94216D0862779DAFBBC329C8 /* Foundation.framework */; };
 		8A936C81F6A2D7AA7266AF966F52669E /* Pods-unique_device_id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BA20353D91D62010CCA301A9B2A0C /* Pods-unique_device_id-dummy.m */; };
-		961188B4F8C5AE101EAB9572ED793716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F9003C94216D0862779DAFBBC329C8 /* Foundation.framework */; };
-		A493E86484B9FFA66F68200725A1E333 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E655E512C46EFD1F007030FEEE1753A /* CoreMotion.framework */; };
-		B1FD759C6DBE322020075F907A01181B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFD73AE506178150A721BC331E9BB9F /* AdSupport.framework */; };
-		BE7F20D98842960760000A96E3249775 /* ImportDeviceId.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924448B9380FBE3BCFEE4D4A2F8451 /* ImportDeviceId.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7ACDD18A3286E504D950684FAF8D3A4 /* shumeiDevice_Id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BA6E5879C8D403CE364C59181E827F /* shumeiDevice_Id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911ADE4AB425ACEA6E11F72F43A90926 /* shumeiDevice_Id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37104AFC5B97CC2D2B603A25DC71EBFC /* shumeiDevice_Id-dummy.m */; };
+		9452D3761291C3A4B64574A96C71DED6 /* SmAntiFraud.h in Headers */ = {isa = PBXBuildFile; fileRef = 158004EA2D95344C1830D10320E0EEC5 /* SmAntiFraud.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF8387C868105DE48A111E9947717BE4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4635E638B8A865DC3AB5CB52E6D63FF /* SystemConfiguration.framework */; };
+		B5097B1F5E6E7FB1E49B195E796910D6 /* DeviceIdSwiftImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6CCA1FD12AB90C392A77B8AE4F925B /* DeviceIdSwiftImport.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB43C4B11B742EACE6F76D4B8B074610 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFD73AE506178150A721BC331E9BB9F /* AdSupport.framework */; };
+		DAA5DFA5799D4C9A392AE11E74D599CF /* DeviceIdSwiftImport.m in Sources */ = {isa = PBXBuildFile; fileRef = D0216008B00BFB4DE04CDFA3D6455A4B /* DeviceIdSwiftImport.m */; };
+		E204721C1A047AA7B735D044221EB6DC /* shumeiDevice_Id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CAC6B1B22081DA5B51629AB03562F7 /* shumeiDevice_Id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F041765A16C17BA60E20511CF5F3805F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9047EF2038CF7AA159A4DF59CB72659A /* Security.framework */; };
+		F10062AE3E96822CB7D40DD0E3367734 /* shumeiDevice_Id.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF77F7ED17240041BF91F137AEB9D89 /* shumeiDevice_Id.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA54AF30BFB6B042645A9B29B5696AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F9003C94216D0862779DAFBBC329C8 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,50 +34,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077092F84B0F139456467A54E45D43A9 /* shumeiDevice_Id.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shumeiDevice_Id.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		144B1E493B4130E5D81539B8679FF72B /* shumeiDevice_Id.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.debug.xcconfig; sourceTree = "<group>"; };
+		158004EA2D95344C1830D10320E0EEC5 /* SmAntiFraud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmAntiFraud.h; sourceTree = "<group>"; };
 		16B4F647316EAEEECDD4A7C7349CF3A4 /* Pods-unique_device_id.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-unique_device_id.modulemap"; sourceTree = "<group>"; };
+		19725858469CD8F8C995814AEC7A4682 /* shumeiDevice_Id-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-prefix.pch"; sourceTree = "<group>"; };
 		19F9003C94216D0862779DAFBBC329C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		23BB1A940A8A67A04C8EA1396B4FFBB3 /* shumeiDevice_Id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shumeiDevice_Id-dummy.m"; sourceTree = "<group>"; };
 		303F5B6EE2451C21E5288124718C0F78 /* Pods-unique_device_id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unique_device_id-Info.plist"; sourceTree = "<group>"; };
-		3BF4D9E1CAE519B929E586EFA0A99223 /* SmAntiFraud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmAntiFraud.h; sourceTree = "<group>"; };
-		3F1C9A46FD5120C379AD987670B83649 /* shumeiDevice_Id.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.debug.xcconfig; sourceTree = "<group>"; };
+		37104AFC5B97CC2D2B603A25DC71EBFC /* shumeiDevice_Id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shumeiDevice_Id-dummy.m"; sourceTree = "<group>"; };
+		4F6CCA1FD12AB90C392A77B8AE4F925B /* DeviceIdSwiftImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceIdSwiftImport.h; path = unique_device_id/Class/DeviceIdSwiftImport.h; sourceTree = "<group>"; };
+		50CAC6B1B22081DA5B51629AB03562F7 /* shumeiDevice_Id-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-umbrella.h"; sourceTree = "<group>"; };
 		51135155F8C286363538E369AE8D1824 /* Pods-unique_device_id.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unique_device_id.debug.xcconfig"; sourceTree = "<group>"; };
-		558DE18261F536FF62BDFC8484C9F8A7 /* libSmAntiFraud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSmAntiFraud.a; path = unique_device_id/Class/libSmAntiFraud.a; sourceTree = "<group>"; };
 		567C95AF885D8FC5B32D8314DC7DF591 /* Pods-unique_device_id-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unique_device_id-acknowledgements.plist"; sourceTree = "<group>"; };
 		5CFD73AE506178150A721BC331E9BB9F /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		617BA20353D91D62010CCA301A9B2A0C /* Pods-unique_device_id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-unique_device_id-dummy.m"; sourceTree = "<group>"; };
 		618DA6B89A29BDD3AA4696305ECA831E /* Pods-unique_device_id-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-unique_device_id-frameworks.sh"; sourceTree = "<group>"; };
-		67BA6E5879C8D403CE364C59181E827F /* shumeiDevice_Id-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-umbrella.h"; sourceTree = "<group>"; };
-		6B08D9EC1964A6810829271B898C2084 /* ImportDeviceId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ImportDeviceId.m; path = unique_device_id/Class/ImportDeviceId.m; sourceTree = "<group>"; };
 		6E655E512C46EFD1F007030FEEE1753A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		8ADE9DD56A32C1EFEDA2AC970977847C /* Pods-unique_device_id-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-unique_device_id-umbrella.h"; sourceTree = "<group>"; };
 		9047EF2038CF7AA159A4DF59CB72659A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9333F74D830614CA2521F32BF571A29F /* shumeiDevice_Id */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shumeiDevice_Id; path = shumeiDevice_Id.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98D4B3CCF6AB851F012FD81F7646F05D /* shumeiDevice_Id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9E540205A61ECC80F84314EB747F6A6 /* Pods-unique_device_id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unique_device_id.release.xcconfig"; sourceTree = "<group>"; };
-		AB924448B9380FBE3BCFEE4D4A2F8451 /* ImportDeviceId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ImportDeviceId.h; path = unique_device_id/Class/ImportDeviceId.h; sourceTree = "<group>"; };
-		B2A2360A12929AD40BC7AE1A04788AF5 /* shumeiDevice_Id.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shumeiDevice_Id.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B68F1D526931DA69B5669BFFA0CEFCB1 /* Pods-unique_device_id */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-unique_device_id"; path = Pods_unique_device_id.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9C0D08DE23064C68060C0CA1623EB96 /* shumeiDevice_Id-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-prefix.pch"; sourceTree = "<group>"; };
-		DC747573E9719878B09BFFE72DF504A7 /* shumeiDevice_Id.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shumeiDevice_Id.modulemap; sourceTree = "<group>"; };
+		C8A3E427F6B4B11763A3BF81C1F153B3 /* shumeiDevice_Id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shumeiDevice_Id-Info.plist"; sourceTree = "<group>"; };
+		CC26C24AEA386AD0BEED955B6D4DA7A8 /* shumeiDevice_Id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.release.xcconfig; sourceTree = "<group>"; };
+		D0216008B00BFB4DE04CDFA3D6455A4B /* DeviceIdSwiftImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceIdSwiftImport.m; path = unique_device_id/Class/DeviceIdSwiftImport.m; sourceTree = "<group>"; };
 		E4635E638B8A865DC3AB5CB52E6D63FF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		E7E267CAC1740C8FE8D46262EB851FDF /* shumeiDevice_Id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shumeiDevice_Id-Info.plist"; sourceTree = "<group>"; };
 		EF5EBAE893FE61EEABC5178D3564E75C /* Pods-unique_device_id-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-unique_device_id-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBF77F7ED17240041BF91F137AEB9D89 /* shumeiDevice_Id.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shumeiDevice_Id.h; path = unique_device_id/Class/shumeiDevice_Id.h; sourceTree = "<group>"; };
+		FC321C5138CDD98FB056D0A1837EC21E /* shumeiDevice_Id.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shumeiDevice_Id.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		35A28AF3E43C5D80877B564F9598FA0A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1FD759C6DBE322020075F907A01181B /* AdSupport.framework in Frameworks */,
-				A493E86484B9FFA66F68200725A1E333 /* CoreMotion.framework in Frameworks */,
-				961188B4F8C5AE101EAB9572ED793716 /* Foundation.framework in Frameworks */,
-				39847F6C8D45B068CB6CC3FE87B75BA7 /* Security.framework in Frameworks */,
-				157AA0CA4648384A14D93BC510647648 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		51FDA5171381C82AD75045F570C604D9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,24 +74,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F47B5C38A381104037FC106FBFD27105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB43C4B11B742EACE6F76D4B8B074610 /* AdSupport.framework in Frameworks */,
+				3E312DD88E3E8A50ADBC839F73D97D37 /* CoreMotion.framework in Frameworks */,
+				6D4E03BCE6D9CA6E209CFBA2518F4F80 /* Foundation.framework in Frameworks */,
+				F041765A16C17BA60E20511CF5F3805F /* Security.framework in Frameworks */,
+				AF8387C868105DE48A111E9947717BE4 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E593179732A7CE5410B186829BC681 /* Frameworks */ = {
+		28202BEEE3EBACB766EA11B43FA60F53 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				558DE18261F536FF62BDFC8484C9F8A7 /* libSmAntiFraud.a */,
+				78C1BF7FFD253E0C87140056102B07D5 /* shumeiDevice_Id */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		29E6BC7A85FCB218D7D8F78792459D70 /* SmAntiFraud */ = {
-			isa = PBXGroup;
-			children = (
-				3BF4D9E1CAE519B929E586EFA0A99223 /* SmAntiFraud.h */,
-			);
-			name = SmAntiFraud;
-			path = SmAntiFraud;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3045732F487E78B9ABED1CA112F47ADC /* Products */ = {
@@ -114,6 +106,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3F05517D907C2CADECA612255A015CC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC321C5138CDD98FB056D0A1837EC21E /* shumeiDevice_Id.modulemap */,
+				37104AFC5B97CC2D2B603A25DC71EBFC /* shumeiDevice_Id-dummy.m */,
+				C8A3E427F6B4B11763A3BF81C1F153B3 /* shumeiDevice_Id-Info.plist */,
+				19725858469CD8F8C995814AEC7A4682 /* shumeiDevice_Id-prefix.pch */,
+				50CAC6B1B22081DA5B51629AB03562F7 /* shumeiDevice_Id-umbrella.h */,
+				144B1E493B4130E5D81539B8679FF72B /* shumeiDevice_Id.debug.xcconfig */,
+				CC26C24AEA386AD0BEED955B6D4DA7A8 /* shumeiDevice_Id.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/shumeiDevice_Id";
+			sourceTree = "<group>";
+		};
 		556B799582A6745AEE544615663A5053 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,12 +129,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		74EED5A6746ADB7E74278030CE74E19B /* Pod */ = {
+		78C1BF7FFD253E0C87140056102B07D5 /* shumeiDevice_Id */ = {
 			isa = PBXGroup;
 			children = (
-				B2A2360A12929AD40BC7AE1A04788AF5 /* shumeiDevice_Id.podspec */,
+				4F6CCA1FD12AB90C392A77B8AE4F925B /* DeviceIdSwiftImport.h */,
+				D0216008B00BFB4DE04CDFA3D6455A4B /* DeviceIdSwiftImport.m */,
+				FBF77F7ED17240041BF91F137AEB9D89 /* shumeiDevice_Id.h */,
+				F174409ED501C23BABDC3890F916FB9A /* Frameworks */,
+				BC76758226174FB4520BAA676F7D862E /* include */,
+				BC9C6D000F39D2465E11F1C8F2C59937 /* Pod */,
+				3F05517D907C2CADECA612255A015CC1 /* Support Files */,
 			);
-			name = Pod;
+			name = shumeiDevice_Id;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		95B05A1DB40DEC1C66C8FB2F32934B31 /* Pods-unique_device_id */ = {
@@ -159,29 +173,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A23E9055BBD5B529FEDA38055350A21F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DC747573E9719878B09BFFE72DF504A7 /* shumeiDevice_Id.modulemap */,
-				23BB1A940A8A67A04C8EA1396B4FFBB3 /* shumeiDevice_Id-dummy.m */,
-				E7E267CAC1740C8FE8D46262EB851FDF /* shumeiDevice_Id-Info.plist */,
-				C9C0D08DE23064C68060C0CA1623EB96 /* shumeiDevice_Id-prefix.pch */,
-				67BA6E5879C8D403CE364C59181E827F /* shumeiDevice_Id-umbrella.h */,
-				3F1C9A46FD5120C379AD987670B83649 /* shumeiDevice_Id.debug.xcconfig */,
-				98D4B3CCF6AB851F012FD81F7646F05D /* shumeiDevice_Id.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/shumeiDevice_Id";
-			sourceTree = "<group>";
-		};
-		AB4258432E3179D764CF0AE80AC6245C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EC1FD9ED52248E2673EDD0C1652F4220 /* shumeiDevice_Id */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,50 +181,61 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC76758226174FB4520BAA676F7D862E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7FD7B57C3ABB3A4796B3D3A269DAB8E /* SmAntiFraud */,
+			);
+			name = include;
+			path = unique_device_id/Class/include;
+			sourceTree = "<group>";
+		};
+		BC9C6D000F39D2465E11F1C8F2C59937 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				077092F84B0F139456467A54E45D43A9 /* shumeiDevice_Id.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AB4258432E3179D764CF0AE80AC6245C /* Development Pods */,
+				28202BEEE3EBACB766EA11B43FA60F53 /* Development Pods */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				3045732F487E78B9ABED1CA112F47ADC /* Products */,
 				556B799582A6745AEE544615663A5053 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		EC1FD9ED52248E2673EDD0C1652F4220 /* shumeiDevice_Id */ = {
+		E7FD7B57C3ABB3A4796B3D3A269DAB8E /* SmAntiFraud */ = {
 			isa = PBXGroup;
 			children = (
-				AB924448B9380FBE3BCFEE4D4A2F8451 /* ImportDeviceId.h */,
-				6B08D9EC1964A6810829271B898C2084 /* ImportDeviceId.m */,
-				00E593179732A7CE5410B186829BC681 /* Frameworks */,
-				F861774D77457C5015584D163C0C8C1E /* include */,
-				74EED5A6746ADB7E74278030CE74E19B /* Pod */,
-				A23E9055BBD5B529FEDA38055350A21F /* Support Files */,
+				158004EA2D95344C1830D10320E0EEC5 /* SmAntiFraud.h */,
 			);
-			name = shumeiDevice_Id;
-			path = ..;
+			name = SmAntiFraud;
+			path = SmAntiFraud;
 			sourceTree = "<group>";
 		};
-		F861774D77457C5015584D163C0C8C1E /* include */ = {
+		F174409ED501C23BABDC3890F916FB9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29E6BC7A85FCB218D7D8F78792459D70 /* SmAntiFraud */,
 			);
-			name = include;
-			path = unique_device_id/Class/include;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ACF547B706558BC51F1F1BDD1C557479 /* Headers */ = {
+		DEAE611D73F10FFDA9BB2AB86E40F5C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7F20D98842960760000A96E3249775 /* ImportDeviceId.h in Headers */,
-				F7ACDD18A3286E504D950684FAF8D3A4 /* shumeiDevice_Id-umbrella.h in Headers */,
-				7B627B14E2FA089B77B528BBC3CF2D2A /* SmAntiFraud.h in Headers */,
+				B5097B1F5E6E7FB1E49B195E796910D6 /* DeviceIdSwiftImport.h in Headers */,
+				F10062AE3E96822CB7D40DD0E3367734 /* shumeiDevice_Id.h in Headers */,
+				E204721C1A047AA7B735D044221EB6DC /* shumeiDevice_Id-umbrella.h in Headers */,
+				9452D3761291C3A4B64574A96C71DED6 /* SmAntiFraud.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,12 +252,12 @@
 /* Begin PBXNativeTarget section */
 		573300FBECACA38740727866A03FE77B /* shumeiDevice_Id */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9A4BFF670F38F917D06646089E1142E /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */;
+			buildConfigurationList = EE614EF7A9C41A15B622E4F38CAD0830 /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */;
 			buildPhases = (
-				ACF547B706558BC51F1F1BDD1C557479 /* Headers */,
-				38A66EE8D9C7D254D259D8AECBE88B91 /* Sources */,
-				35A28AF3E43C5D80877B564F9598FA0A /* Frameworks */,
-				714E8CE6C7A3F22118E570D0AC790BE7 /* Resources */,
+				DEAE611D73F10FFDA9BB2AB86E40F5C8 /* Headers */,
+				F38B25656109D9F1CA3D892D25371646 /* Sources */,
+				F47B5C38A381104037FC106FBFD27105 /* Frameworks */,
+				A93C9B532CBCDB3D552D0E996D0362FC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -321,7 +323,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		714E8CE6C7A3F22118E570D0AC790BE7 /* Resources */ = {
+		A93C9B532CBCDB3D552D0E996D0362FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -331,20 +333,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		38A66EE8D9C7D254D259D8AECBE88B91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5763235FEB7B67AF479956EC1C3E5DA0 /* ImportDeviceId.m in Sources */,
-				1B03FA20B16C2D2970B9455A296A07F6 /* shumeiDevice_Id-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4400D6D8EF5BDB4DC3FE9DEFDB6F2CE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A936C81F6A2D7AA7266AF966F52669E /* Pods-unique_device_id-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38B25656109D9F1CA3D892D25371646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA5DFA5799D4C9A392AE11E74D599CF /* DeviceIdSwiftImport.m in Sources */,
+				911ADE4AB425ACEA6E11F72F43A90926 /* shumeiDevice_Id-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +437,9 @@
 			};
 			name = Debug;
 		};
-		6EC3B982ACD07347B44EA5F2CF29ECCF /* Debug */ = {
+		84C2966B9F5DFA501C92DAC47F08B8E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F1C9A46FD5120C379AD987670B83649 /* shumeiDevice_Id.debug.xcconfig */;
+			baseConfigurationReference = CC26C24AEA386AD0BEED955B6D4DA7A8 /* shumeiDevice_Id.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -465,10 +467,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -598,9 +601,9 @@
 			};
 			name = Release;
 		};
-		F6203C91F9C083944ABC45ED881D87B4 /* Release */ = {
+		FADD49F62984BCC9A0B39012D9778DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98D4B3CCF6AB851F012FD81F7646F05D /* shumeiDevice_Id.release.xcconfig */;
+			baseConfigurationReference = 144B1E493B4130E5D81539B8679FF72B /* shumeiDevice_Id.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -628,11 +631,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -655,11 +657,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9A4BFF670F38F917D06646089E1142E /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */ = {
+		EE614EF7A9C41A15B622E4F38CAD0830 /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EC3B982ACD07347B44EA5F2CF29ECCF /* Debug */,
-				F6203C91F9C083944ABC45ED881D87B4 /* Release */,
+				FADD49F62984BCC9A0B39012D9778DD7 /* Debug */,
+				84C2966B9F5DFA501C92DAC47F08B8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
