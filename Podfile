@@ -3,7 +3,7 @@
 use_frameworks!
 target 'unique_device_id' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+
 
   # Pods for unique_device_id
    pod 'shumeiDevice_Id', :path => "./"

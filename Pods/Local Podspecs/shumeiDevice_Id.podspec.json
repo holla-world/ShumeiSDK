@@ -19,7 +19,7 @@
   },
   "requires_arc": true,
   "vendored_libraries": "unique_device_id/Class/*.a",
-  "source_files": "unique_device_id/Class/DeviceIdSwiftImport.{h,m}",
+  "source_files": "unique_device_id/Class/*.{h,m}",
   "public_header_files": [
     "unique_device_id/Class/shumeiDevice_Id.h",
     "unique_device_id/Class/SmAntiFraud.h"
