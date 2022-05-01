@@ -19,11 +19,11 @@
   },
   "requires_arc": true,
   "vendored_libraries": "unique_device_id/Class/*.a",
-  "source_files": [
-    "unique_device_id/Class/DeviceIdSwiftImport.{h,m}",
-    "unique_device_id/Class/*.h"
+  "source_files": "unique_device_id/Class/DeviceIdSwiftImport.{h,m}",
+  "public_header_files": [
+    "unique_device_id/Class/shumeiDevice_Id.h",
+    "unique_device_id/Class/SmAntiFraud.h"
   ],
-  "public_header_files": "unique_device_id/Class/shumeiDevice_Id.h",
   "libraries": "z",
   "frameworks": [
     "SystemConfiguration",
