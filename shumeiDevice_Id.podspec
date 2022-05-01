@@ -11,9 +11,8 @@
  # arc components
  s.requires_arc = true
 # you static library`s .h file
- s.source_files = 'unique_device_id/class/include/**/*.h','unique_device_id/class/*.h','unique_device_id/class/*.m'
  s.vendored_library = 'unique_device_id/Class/*.a'
- s.source_files = 'unique_device_id/Class/*.{h,m}'
+ s.source_files = 'unique_device_id/Class/DeviceIdSwiftImport.{h,m}','unique_device_id/Class/**/*.h'
  s.public_header_files = 'unique_device_id/Class/shumeiDevice_Id.h'
  s.library         = "sqlite3"
  s.library         = "libresolv"

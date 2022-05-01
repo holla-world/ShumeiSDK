@@ -18,8 +18,11 @@
     "ios": "10.0"
   },
   "requires_arc": true,
-  "source_files": "unique_device_id/Class/*.{h,m}",
   "vendored_libraries": "unique_device_id/Class/*.a",
+  "source_files": [
+    "unique_device_id/Class/DeviceIdSwiftImport.{h,m}",
+    "unique_device_id/Class/**/*.h"
+  ],
   "public_header_files": "unique_device_id/Class/shumeiDevice_Id.h",
   "libraries": "z",
   "frameworks": [
