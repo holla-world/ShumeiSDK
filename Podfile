@@ -6,5 +6,5 @@ target 'unique_device_id' do
 
 
   # Pods for unique_device_id
-   pod 'shumeiDevice_Id', :path => "./"
+   pod 'unique_device_id', :path => "./"
 end

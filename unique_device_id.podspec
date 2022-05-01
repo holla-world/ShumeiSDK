@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
- s.name         = "shumeiDevice_Id"
- s.version      = "1.0.3"
+ s.name         = "unique_device_id"
+ s.version      = "1.0.4"
  s.summary      = "Unique Device Id Library"
  s.homepage     = "https://github.com/"
  s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -11,7 +11,7 @@
  # arc components
  s.requires_arc = true
 # you static library`s .h file
- s.vendored_library = 'unique_device_id/Class/libSmAntiFraud.a'
+# s.vendored_library = 'unique_device_id/Class/libSmAntiFraud.a'
  s.source_files = 'unique_device_id/Class/*.{h,m}'
  # s.source_files = 'unique_device_id/Class/*.m}'
  # s.public_header_files = 'unique_device_id/Class/*.h'
@@ -20,6 +20,7 @@
  s.library         = "libresolv"
  s.library         = "z"
  s.frameworks       = "SystemConfiguration","AdSupport","CoreMotion","Security"
+ s.dependency 'shumeiDevice_Id'
 end
 
 

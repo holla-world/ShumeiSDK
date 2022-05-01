@@ -1,5 +1,5 @@
 {
-  "name": "shumeiDevice_Id",
+  "name": "unique_device_id",
   "version": "1.0.3",
   "summary": "Unique Device Id Library",
   "homepage": "https://github.com/",
@@ -18,7 +18,6 @@
     "ios": "10.0"
   },
   "requires_arc": true,
-  "vendored_libraries": "unique_device_id/Class/libSmAntiFraud.a",
   "source_files": "unique_device_id/Class/*.{h,m}",
   "public_header_files": [
     "unique_device_id/Class/shumeiDevice_Id.h",
@@ -30,5 +29,10 @@
     "AdSupport",
     "CoreMotion",
     "Security"
-  ]
+  ],
+  "dependencies": {
+    "shumeiDevice_Id": [
+
+    ]
+  }
 }
