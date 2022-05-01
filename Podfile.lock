@@ -1,5 +1,5 @@
 PODS:
-  - shumeiDevice_Id (1.0.2)
+  - shumeiDevice_Id (1.0.3)
 
 DEPENDENCIES:
   - shumeiDevice_Id (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  shumeiDevice_Id: b67256878a32d5a1717ecd0dc74e6c7f6f7fd5c5
+  shumeiDevice_Id: 03057649389a680eee257b795de33511a51fd1f2
 
 PODFILE CHECKSUM: 9f8a863e6eed07b9ab81946a1ea16268d80a380a
 

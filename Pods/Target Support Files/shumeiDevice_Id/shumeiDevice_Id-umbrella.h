@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "shumeiDevice_Id.h"
 #import "SmAntiFraud.h"
 
 FOUNDATION_EXPORT double shumeiDevice_IdVersionNumber;
