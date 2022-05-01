@@ -5,7 +5,7 @@
 //  Created by admin on 01-05-22.
 //
 
-#import <shumeiDevice_Id/DeviceIdSwiftImport.h>
+#import "DeviceIdSwiftImport.h"
 
 @implementation DeviceIdSwiftImport
 
