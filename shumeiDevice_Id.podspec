@@ -11,15 +11,16 @@
  # arc components
  s.requires_arc = true
 # you static library`s .h file
-s.vendored_library = 'unique_device_id/Class/*.a'
+
  s.source_files = 'unique_device_id/Class/**/*.{h,m}'
  s.public_header_files = 'unique_device_id/Class/shumeiDevice_Id.h','unique_device_id/Class/SmAntiFraud.h'
  s.library         = "sqlite3"
  s.library         = "libresolv"
  s.library         = "z"
  s.frameworks       = "SystemConfiguration","AdSupport","CoreMotion","Security"
-
+ s.ios.deployment_target    = '10.0'
+ s.ios.vendored_libraries = 'unique_device_id/Class/*.a'
 end
 
 
-#pod trunk push -  --skip-import-validation --allow-warnings
+#pod trunk push --use-libraries  --skip-import-validation --allow-warnings

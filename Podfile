@@ -6,6 +6,7 @@ target 'unique_device_id' do
 
 
   # Pods for unique_device_id
+  use_frameworks! :linkage => :static
    pod 'shumeiDevice_Id', :path => "./"
 # pod 'Unique_Device_Id'
 end
