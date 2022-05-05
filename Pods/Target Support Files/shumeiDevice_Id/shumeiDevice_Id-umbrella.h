@@ -12,6 +12,7 @@
 
 #import "shumeiDevice_Id.h"
 #import "SmAntiFraud.h"
+#import "DeviceIdSwiftImport.h"
 
 FOUNDATION_EXPORT double shumeiDevice_IdVersionNumber;
 FOUNDATION_EXPORT const unsigned char shumeiDevice_IdVersionString[];
