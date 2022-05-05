@@ -14,4 +14,4 @@ FOUNDATION_EXPORT const unsigned char shumeiDevice_IdVersionString[];
 
 
 #import <SmAntiFraud.h>
-#import <DeviceIdSwiftImport.h>
+

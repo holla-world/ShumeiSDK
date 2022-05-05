@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC076BB5558E32259C5BCFBC6010CFA /* DeviceIdSwiftImport.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB60AB81B718810E3355978000A23C1 /* DeviceIdSwiftImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26C7C36601C87FF720614DF2C531F9AE /* shumeiDevice_Id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B62EF092FB32DC5B301846D2A12D34 /* shumeiDevice_Id-dummy.m */; };
 		42ABC984B93F27F9E1ABDD157997A7AE /* Pods-unique_device_id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EBAD77C817AF863B4A005CF374BD5 /* Pods-unique_device_id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AAD3AB9009CE716DC0BAB43F7D19D09 /* DeviceIdSwiftImport.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB60AB81B718810E3355978000A23C1 /* DeviceIdSwiftImport.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		833397264549D09411BD13B701D07A33 /* shumeiDevice_Id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E030DFF64749FCFD601690A843191BC /* shumeiDevice_Id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A936C81F6A2D7AA7266AF966F52669E /* Pods-unique_device_id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B317F2464111B3171720A800EE553808 /* Pods-unique_device_id-dummy.m */; };
 		A0F07791D80146F4C783FF2E1ED7A6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -198,7 +198,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AAD3AB9009CE716DC0BAB43F7D19D09 /* DeviceIdSwiftImport.h in Headers */,
+				0EC076BB5558E32259C5BCFBC6010CFA /* DeviceIdSwiftImport.h in Headers */,
 				B226F59CAD13410F703ECCBE88F7C95E /* shumeiDevice_Id.h in Headers */,
 				833397264549D09411BD13B701D07A33 /* shumeiDevice_Id-umbrella.h in Headers */,
 				C00258154101E5ADD45061BF73208B2A /* SmAntiFraud.h in Headers */,

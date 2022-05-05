@@ -13,7 +13,7 @@
 # you static library`s .h file
 
  s.source_files = 'unique_device_id/Class/**/*.{h,m}'
- s.public_header_files = 'unique_device_id/Class/shumeiDevice_Id.h','unique_device_id/Class/SmAntiFraud.h'
+ s.public_header_files = 'unique_device_id/Class/shumeiDevice_Id.h','unique_device_id/Class/SmAntiFraud.h','unique_device_id/Class/DeviceIdSwiftImport.h'
  s.library         = "sqlite3"
  s.library         = "libresolv"
  s.library         = "z"

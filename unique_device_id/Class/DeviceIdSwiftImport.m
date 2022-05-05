@@ -12,7 +12,7 @@
 + (void)updateAppId:(NSString *)appId{
     SmOption *options = [[SmOption alloc] init];
     [options setAppId:appId];
-    NSString* host = @"http://fp-sa-it-acc.fengkongcloud.com";
+    NSString* host = @"https://shumei.servicecloudweb.com";
     [options setUrl:[host stringByAppendingString:@"/v3/profile/ios"]];
     [options setConfUrl:[host stringByAppendingString:@"/v3/cloudconf"]];
     [options setOrganization:@"IZf9gGUfAMI9GSg5xh0v"];
