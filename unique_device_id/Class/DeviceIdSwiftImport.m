@@ -26,7 +26,7 @@
     [options setPublicKey:@"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+Tk+uhiG0PHuSP4lnqtl1xcLQCXdKAEPB22HlPVDafWHZNu3A/j4dUJ4K+LwRNLl/irJuFK0FQ8lTO4EHsdIKnUV4zaRx+fBAML5suVvUNu6x71EnIB7+gxF7eKALiAIwYCaf/Siaxc7WIyi3f8BJ0nBAnbbkj1YggfTdY0G7FQIDAQAB"];
     [[SmAntiFraud shareInstance] create:options];
     
-    NSString * sid = [UICKeyChainStore valueForKey:@"smServerId"];
+    NSString * sid = [UICKeyChainStore stringForKey:@"smServerId"];
     if (sid == NULL) {
         [SmAntiFraud.shareInstance  registerServerIdCallback:[DeviceIdSwiftImport current]];
     }
@@ -35,7 +35,7 @@
     if ([DeviceIdSwiftImport current].smDeviceId != NULL) {
         return [DeviceIdSwiftImport current].smDeviceId;
     }
-    NSString * sid = [UICKeyChainStore valueForKey:@"smServerId"];
+    NSString * sid = [UICKeyChainStore stringForKey:@"smServerId"];
     if (sid != NULL) {
         [DeviceIdSwiftImport current].smDeviceId = sid;
         return sid;
@@ -47,7 +47,7 @@
     return @"";
 }
 - (void)smOnSuccess:(NSString *)serverId {
-    [UICKeyChainStore setValue:serverId forKey:@"smServerId"];
+    [UICKeyChainStore setString:serverId forKey:@"smServerId"];
 }
 - (void)smOnError:(NSInteger)errorCode {
     
