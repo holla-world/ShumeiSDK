@@ -33,5 +33,10 @@
   ],
   "ios": {
     "vendored_libraries": "unique_device_id/Class/*.a"
+  },
+  "dependencies": {
+    "UICKeyChainStore": [
+
+    ]
   }
 }

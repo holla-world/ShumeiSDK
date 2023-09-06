@@ -20,6 +20,7 @@
  s.frameworks       = "SystemConfiguration","AdSupport","CoreMotion","Security"
  s.ios.deployment_target    = '10.0'
  s.ios.vendored_libraries = 'unique_device_id/Class/*.a'
+ s.dependency "UICKeyChainStore"
 end
 
 

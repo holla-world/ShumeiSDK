@@ -7,91 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EC076BB5558E32259C5BCFBC6010CFA /* DeviceIdSwiftImport.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB60AB81B718810E3355978000A23C1 /* DeviceIdSwiftImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26C7C36601C87FF720614DF2C531F9AE /* shumeiDevice_Id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B62EF092FB32DC5B301846D2A12D34 /* shumeiDevice_Id-dummy.m */; };
-		42ABC984B93F27F9E1ABDD157997A7AE /* Pods-unique_device_id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EBAD77C817AF863B4A005CF374BD5 /* Pods-unique_device_id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		833397264549D09411BD13B701D07A33 /* shumeiDevice_Id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E030DFF64749FCFD601690A843191BC /* shumeiDevice_Id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A936C81F6A2D7AA7266AF966F52669E /* Pods-unique_device_id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B317F2464111B3171720A800EE553808 /* Pods-unique_device_id-dummy.m */; };
-		A0F07791D80146F4C783FF2E1ED7A6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AA62F879A0536DFB8CBEEFB72A8BDC5C /* DeviceIdSwiftImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2879EC405ABA7BD4E96E06B9150CD /* DeviceIdSwiftImport.m */; };
-		B226F59CAD13410F703ECCBE88F7C95E /* shumeiDevice_Id.h in Headers */ = {isa = PBXBuildFile; fileRef = 37A0DF90449E77648CBA1FC0FD1A5FE1 /* shumeiDevice_Id.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C00258154101E5ADD45061BF73208B2A /* SmAntiFraud.h in Headers */ = {isa = PBXBuildFile; fileRef = D040E01588E1301649D4B87F56D5FA0A /* SmAntiFraud.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA54AF30BFB6B042645A9B29B5696AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		077AFB0FFF451DCA5F34BB429DB3303C /* shumeiDevice_Id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A12EFCE479AE7906837AF8EBB6076BC /* shumeiDevice_Id-dummy.m */; };
+		148805F304DED9245D5D526D4F8D81EE /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0150FCA4D3A0C965AC42F9E2E4246087 /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA1531C37CC4D5C182E21E54172B085 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BE5968D114255260D19A8DE93B4031 /* UICKeyChainStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29D0B284DEE872EB02249B9C790D6853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2F525FF961F53C939073CAC228183F6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		440446005757B5571CE4FA4E9E88027D /* UICKeyChainStore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9893A2BA4AC97B7BFC985830B5C2808F /* UICKeyChainStore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B382480CABA4A4B645E1AD43816C212 /* DeviceIdSwiftImport.m in Sources */ = {isa = PBXBuildFile; fileRef = A609EDCE0A14FA3539AB4BDE1CE11EB7 /* DeviceIdSwiftImport.m */; };
+		687361CC34CCA894C6B564AE7C23C244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69572A62519B65EACBC970AF6E357C96 /* UICKeyChainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C249BDE7E14A7F3CF42FFBC7B76DC /* UICKeyChainStore-dummy.m */; };
+		6D8A0371A1717162A957D811C0038450 /* Pods-unique_device_id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B317F2464111B3171720A800EE553808 /* Pods-unique_device_id-dummy.m */; };
+		93AD3301F29DF8270D740E181BAA517C /* shumeiDevice_Id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B2CAC05DEADE4DB761B3FBDDD17B3 /* shumeiDevice_Id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA844DFD3AD93880D70987E612576761 /* Pods-unique_device_id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EBAD77C817AF863B4A005CF374BD5 /* Pods-unique_device_id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3686271FA7649CC430F14EED8BDA94 /* shumeiDevice_Id.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DAAB8FC95431CC481A38DB5E9E5CF8 /* shumeiDevice_Id.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB6C658200AD1E7EED03EE56561F8E82 /* DeviceIdSwiftImport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F046B19157744E492C668DE79615A24 /* DeviceIdSwiftImport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4C4992B48D8517CD8565A9501B6555 /* SmAntiFraud.h in Headers */ = {isa = PBXBuildFile; fileRef = 382D73A6BF94A7FCA2A7A00EEF83022C /* SmAntiFraud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A83373F5CC85FE8D60D794369579B4C /* PBXContainerItemProxy */ = {
+		705CA913B4B6F94DC9B585B4DAE43307 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 573300FBECACA38740727866A03FE77B;
 			remoteInfo = shumeiDevice_Id;
 		};
+		921146B1B296E1E5E91274B386E02764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7406ECC476A62C8FA502AD0E8D1240BE;
+			remoteInfo = UICKeyChainStore;
+		};
+		ADEB501F2177A69CC646A0F69AD9871C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7406ECC476A62C8FA502AD0E8D1240BE;
+			remoteInfo = UICKeyChainStore;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37A0DF90449E77648CBA1FC0FD1A5FE1 /* shumeiDevice_Id.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shumeiDevice_Id.h; path = unique_device_id/Class/shumeiDevice_Id.h; sourceTree = "<group>"; };
+		00300618A933FF1E028E4DE5A850D0E9 /* shumeiDevice_Id.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shumeiDevice_Id.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0150FCA4D3A0C965AC42F9E2E4246087 /* UICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = Lib/UICKeyChainStore/UICKeyChainStore.h; sourceTree = "<group>"; };
+		1029F06BA180125CF10655C4CF2CA455 /* UICKeyChainStore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UICKeyChainStore-Info.plist"; sourceTree = "<group>"; };
+		1A8B2CAC05DEADE4DB761B3FBDDD17B3 /* shumeiDevice_Id-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-umbrella.h"; sourceTree = "<group>"; };
+		1E7F3DFBF86DCF805933D57AE0EAB37B /* UICKeyChainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-prefix.pch"; sourceTree = "<group>"; };
+		28232D3AB593D19758E1D56F2698B71B /* shumeiDevice_Id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shumeiDevice_Id-Info.plist"; sourceTree = "<group>"; };
+		382D73A6BF94A7FCA2A7A00EEF83022C /* SmAntiFraud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmAntiFraud.h; path = unique_device_id/Class/SmAntiFraud.h; sourceTree = "<group>"; };
+		3CE0064C451AAA146028E37E0E30F008 /* UICKeyChainStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICKeyChainStore.debug.xcconfig; sourceTree = "<group>"; };
 		4780470D03A6F60A256B81A487AA920A /* Pods-unique_device_id.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unique_device_id.debug.xcconfig"; sourceTree = "<group>"; };
-		4D409010F3A16AB8E8822BF8FB2932A7 /* shumeiDevice_Id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.release.xcconfig; sourceTree = "<group>"; };
-		66E0959267E7B25F26EB3A6DA6ACEA6A /* libSmAntiFraud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSmAntiFraud.a; path = unique_device_id/Class/libSmAntiFraud.a; sourceTree = "<group>"; };
+		54C95C02FA1CB3F3A0FFBE1E98CE0B17 /* shumeiDevice_Id-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-prefix.pch"; sourceTree = "<group>"; };
+		5F046B19157744E492C668DE79615A24 /* DeviceIdSwiftImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceIdSwiftImport.h; path = unique_device_id/Class/DeviceIdSwiftImport.h; sourceTree = "<group>"; };
+		634BC9067EEDC0EF71C67673E132CE8D /* UICKeyChainStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICKeyChainStore.release.xcconfig; sourceTree = "<group>"; };
+		6458C63FFE6737CAF2EA2C3499425825 /* shumeiDevice_Id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.release.xcconfig; sourceTree = "<group>"; };
 		6D520F6A27B5965D721306B7092BC7DE /* Pods-unique_device_id-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unique_device_id-acknowledgements.plist"; sourceTree = "<group>"; };
 		71466691B0B0E0D2839B9984856C831A /* Pods-unique_device_id.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-unique_device_id.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AB2879EC405ABA7BD4E96E06B9150CD /* DeviceIdSwiftImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceIdSwiftImport.m; path = unique_device_id/Class/DeviceIdSwiftImport.m; sourceTree = "<group>"; };
-		89B62EF092FB32DC5B301846D2A12D34 /* shumeiDevice_Id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shumeiDevice_Id-dummy.m"; sourceTree = "<group>"; };
+		750793F934A7C975BA04C7306B31E6E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A12EFCE479AE7906837AF8EBB6076BC /* shumeiDevice_Id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shumeiDevice_Id-dummy.m"; sourceTree = "<group>"; };
+		85DAAB8FC95431CC481A38DB5E9E5CF8 /* shumeiDevice_Id.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shumeiDevice_Id.h; path = unique_device_id/Class/shumeiDevice_Id.h; sourceTree = "<group>"; };
 		8B564F401D6B7EB3D2B57059E1138B4C /* Pods-unique_device_id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unique_device_id-Info.plist"; sourceTree = "<group>"; };
+		8C3C249BDE7E14A7F3CF42FFBC7B76DC /* UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
+		90B0A47393998029D55EE6B8B10893D2 /* shumeiDevice_Id.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shumeiDevice_Id.modulemap; sourceTree = "<group>"; };
 		9333F74D830614CA2521F32BF571A29F /* shumeiDevice_Id */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shumeiDevice_Id; path = shumeiDevice_Id.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		982055C658EBB88E8A0D5107F2546A8A /* UICKeyChainStore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UICKeyChainStore.modulemap; sourceTree = "<group>"; };
+		9893A2BA4AC97B7BFC985830B5C2808F /* UICKeyChainStore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E030DFF64749FCFD601690A843191BC /* shumeiDevice_Id-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-umbrella.h"; sourceTree = "<group>"; };
-		A174BD64E68EEA4D7843270AE1A025F8 /* shumeiDevice_Id.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.debug.xcconfig; sourceTree = "<group>"; };
-		AED30DB0C29B92D6A441E07401CDBC16 /* shumeiDevice_Id.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = shumeiDevice_Id.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A4D131DB063279AE8AF52001C682FE /* UICKeyChainStore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICKeyChainStore; path = UICKeyChainStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A609EDCE0A14FA3539AB4BDE1CE11EB7 /* DeviceIdSwiftImport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DeviceIdSwiftImport.m; path = unique_device_id/Class/DeviceIdSwiftImport.m; sourceTree = "<group>"; };
+		A6BE5968D114255260D19A8DE93B4031 /* UICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = Lib/UICKeyChainStore/UICKeyChainStore.m; sourceTree = "<group>"; };
 		B317F2464111B3171720A800EE553808 /* Pods-unique_device_id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-unique_device_id-dummy.m"; sourceTree = "<group>"; };
 		B60688D76F6451826DE916B9184ACB6F /* Pods-unique_device_id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-unique_device_id.release.xcconfig"; sourceTree = "<group>"; };
 		B68F1D526931DA69B5669BFFA0CEFCB1 /* Pods-unique_device_id */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-unique_device_id"; path = Pods_unique_device_id.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAB60AB81B718810E3355978000A23C1 /* DeviceIdSwiftImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceIdSwiftImport.h; path = unique_device_id/Class/DeviceIdSwiftImport.h; sourceTree = "<group>"; };
-		D040E01588E1301649D4B87F56D5FA0A /* SmAntiFraud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SmAntiFraud.h; path = unique_device_id/Class/SmAntiFraud.h; sourceTree = "<group>"; };
-		D3F0CC33EEE21940E625A35969B9E234 /* shumeiDevice_Id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "shumeiDevice_Id-Info.plist"; sourceTree = "<group>"; };
 		D87F81EF6ABC5826B07A0CF6A02DF8EF /* Pods-unique_device_id-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-unique_device_id-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D93EBAD77C817AF863B4A005CF374BD5 /* Pods-unique_device_id-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-unique_device_id-umbrella.h"; sourceTree = "<group>"; };
-		DD42658351C4B75AE6A5D18587C6D75C /* shumeiDevice_Id.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = shumeiDevice_Id.modulemap; sourceTree = "<group>"; };
-		EAE21080E8B748CE2A7D831573D3FBD6 /* shumeiDevice_Id-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shumeiDevice_Id-prefix.pch"; sourceTree = "<group>"; };
+		FC16CB34CE0DA468494A4A07D813A7A0 /* shumeiDevice_Id.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shumeiDevice_Id.debug.xcconfig; sourceTree = "<group>"; };
+		FD97D4597C9F6F54E06844F9FFF7A6BD /* libSmAntiFraud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSmAntiFraud.a; path = unique_device_id/Class/libSmAntiFraud.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		51FDA5171381C82AD75045F570C604D9 /* Frameworks */ = {
+		32FE861BEC99F1C58442A02BEE8C9527 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA54AF30BFB6B042645A9B29B5696AFC /* Foundation.framework in Frameworks */,
+				29D0B284DEE872EB02249B9C790D6853 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		887920F0310484B18892E197A70CB0E4 /* Frameworks */ = {
+		B961204F6F46EBC206804110B045E984 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0F07791D80146F4C783FF2E1ED7A6A8 /* Foundation.framework in Frameworks */,
+				687361CC34CCA894C6B564AE7C23C244 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD41F5EA5921FD15CD1FE1DDB1B3E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F525FF961F53C939073CAC228183F6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28202BEEE3EBACB766EA11B43FA60F53 /* Development Pods */ = {
+		174638AD64125571C57BEFECA2CB993B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D55AB979A6F15532E8DE8384C800CCBB /* shumeiDevice_Id */,
+				90B0A47393998029D55EE6B8B10893D2 /* shumeiDevice_Id.modulemap */,
+				7A12EFCE479AE7906837AF8EBB6076BC /* shumeiDevice_Id-dummy.m */,
+				28232D3AB593D19758E1D56F2698B71B /* shumeiDevice_Id-Info.plist */,
+				54C95C02FA1CB3F3A0FFBE1E98CE0B17 /* shumeiDevice_Id-prefix.pch */,
+				1A8B2CAC05DEADE4DB761B3FBDDD17B3 /* shumeiDevice_Id-umbrella.h */,
+				FC16CB34CE0DA468494A4A07D813A7A0 /* shumeiDevice_Id.debug.xcconfig */,
+				6458C63FFE6737CAF2EA2C3499425825 /* shumeiDevice_Id.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Pods/Target Support Files/shumeiDevice_Id";
 			sourceTree = "<group>";
 		};
-		3045732F487E78B9ABED1CA112F47ADC /* Products */ = {
+		1FF3F56A38F0CC01188B5269EBF950DF /* shumeiDevice_Id */ = {
+			isa = PBXGroup;
+			children = (
+				5F046B19157744E492C668DE79615A24 /* DeviceIdSwiftImport.h */,
+				A609EDCE0A14FA3539AB4BDE1CE11EB7 /* DeviceIdSwiftImport.m */,
+				85DAAB8FC95431CC481A38DB5E9E5CF8 /* shumeiDevice_Id.h */,
+				382D73A6BF94A7FCA2A7A00EEF83022C /* SmAntiFraud.h */,
+				A23961169B53A53B5B1847AB6C555AD5 /* Frameworks */,
+				A3A5EFCD95720D7E5A752C48FF6C7365 /* Pod */,
+				174638AD64125571C57BEFECA2CB993B /* Support Files */,
+			);
+			name = shumeiDevice_Id;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		281E2CF4563EEDC6EF1646041488D298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B68F1D526931DA69B5669BFFA0CEFCB1 /* Pods-unique_device_id */,
 				9333F74D830614CA2521F32BF571A29F /* shumeiDevice_Id */,
+				A0A4D131DB063279AE8AF52001C682FE /* UICKeyChainStore */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		28202BEEE3EBACB766EA11B43FA60F53 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FF3F56A38F0CC01188B5269EBF950DF /* shumeiDevice_Id */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -102,27 +171,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		907CA45261EA9CE6C60B95D09B4E78B3 /* Support Files */ = {
+		A23961169B53A53B5B1847AB6C555AD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD42658351C4B75AE6A5D18587C6D75C /* shumeiDevice_Id.modulemap */,
-				89B62EF092FB32DC5B301846D2A12D34 /* shumeiDevice_Id-dummy.m */,
-				D3F0CC33EEE21940E625A35969B9E234 /* shumeiDevice_Id-Info.plist */,
-				EAE21080E8B748CE2A7D831573D3FBD6 /* shumeiDevice_Id-prefix.pch */,
-				9E030DFF64749FCFD601690A843191BC /* shumeiDevice_Id-umbrella.h */,
-				A174BD64E68EEA4D7843270AE1A025F8 /* shumeiDevice_Id.debug.xcconfig */,
-				4D409010F3A16AB8E8822BF8FB2932A7 /* shumeiDevice_Id.release.xcconfig */,
+				FD97D4597C9F6F54E06844F9FFF7A6BD /* libSmAntiFraud.a */,
 			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/shumeiDevice_Id";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AEE3E604D9FB1FE62ECCBE949089C38D /* Pod */ = {
+		A3A5EFCD95720D7E5A752C48FF6C7365 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AED30DB0C29B92D6A441E07401CDBC16 /* shumeiDevice_Id.podspec */,
+				750793F934A7C975BA04C7306B31E6E2 /* LICENSE */,
+				00300618A933FF1E028E4DE5A850D0E9 /* shumeiDevice_Id.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		A429E71C779A74B4312423E7B7A482D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC7699392D69ECF88A55423053AED12C /* UICKeyChainStore */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B4A15CFBC6BC4ED625196FB733EA596B /* Targets Support Files */ = {
@@ -139,7 +210,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				28202BEEE3EBACB766EA11B43FA60F53 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3045732F487E78B9ABED1CA112F47ADC /* Products */,
+				A429E71C779A74B4312423E7B7A482D4 /* Pods */,
+				281E2CF4563EEDC6EF1646041488D298 /* Products */,
 				B4A15CFBC6BC4ED625196FB733EA596B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -152,27 +224,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D55AB979A6F15532E8DE8384C800CCBB /* shumeiDevice_Id */ = {
+		D98BF9E44C40D49FF2BEB8A378F48276 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAB60AB81B718810E3355978000A23C1 /* DeviceIdSwiftImport.h */,
-				7AB2879EC405ABA7BD4E96E06B9150CD /* DeviceIdSwiftImport.m */,
-				37A0DF90449E77648CBA1FC0FD1A5FE1 /* shumeiDevice_Id.h */,
-				D040E01588E1301649D4B87F56D5FA0A /* SmAntiFraud.h */,
-				DFC36016D624E093AA4C8523AB1CA054 /* Frameworks */,
-				AEE3E604D9FB1FE62ECCBE949089C38D /* Pod */,
-				907CA45261EA9CE6C60B95D09B4E78B3 /* Support Files */,
+				982055C658EBB88E8A0D5107F2546A8A /* UICKeyChainStore.modulemap */,
+				8C3C249BDE7E14A7F3CF42FFBC7B76DC /* UICKeyChainStore-dummy.m */,
+				1029F06BA180125CF10655C4CF2CA455 /* UICKeyChainStore-Info.plist */,
+				1E7F3DFBF86DCF805933D57AE0EAB37B /* UICKeyChainStore-prefix.pch */,
+				9893A2BA4AC97B7BFC985830B5C2808F /* UICKeyChainStore-umbrella.h */,
+				3CE0064C451AAA146028E37E0E30F008 /* UICKeyChainStore.debug.xcconfig */,
+				634BC9067EEDC0EF71C67673E132CE8D /* UICKeyChainStore.release.xcconfig */,
 			);
-			name = shumeiDevice_Id;
-			path = ..;
+			name = "Support Files";
+			path = "../Target Support Files/UICKeyChainStore";
 			sourceTree = "<group>";
 		};
-		DFC36016D624E093AA4C8523AB1CA054 /* Frameworks */ = {
+		DC7699392D69ECF88A55423053AED12C /* UICKeyChainStore */ = {
 			isa = PBXGroup;
 			children = (
-				66E0959267E7B25F26EB3A6DA6ACEA6A /* libSmAntiFraud.a */,
+				0150FCA4D3A0C965AC42F9E2E4246087 /* UICKeyChainStore.h */,
+				A6BE5968D114255260D19A8DE93B4031 /* UICKeyChainStore.m */,
+				D98BF9E44C40D49FF2BEB8A378F48276 /* Support Files */,
 			);
-			name = Frameworks;
+			name = UICKeyChainStore;
+			path = UICKeyChainStore;
 			sourceTree = "<group>";
 		};
 		F6BE8823A60CF823C44572F924FC877F /* Pods-unique_device_id */ = {
@@ -194,22 +269,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C640EEE263B1F522178B6FB53A5DAAF9 /* Headers */ = {
+		416D6F340B5419B731093E649F562C94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EC076BB5558E32259C5BCFBC6010CFA /* DeviceIdSwiftImport.h in Headers */,
-				B226F59CAD13410F703ECCBE88F7C95E /* shumeiDevice_Id.h in Headers */,
-				833397264549D09411BD13B701D07A33 /* shumeiDevice_Id-umbrella.h in Headers */,
-				C00258154101E5ADD45061BF73208B2A /* SmAntiFraud.h in Headers */,
+				148805F304DED9245D5D526D4F8D81EE /* UICKeyChainStore.h in Headers */,
+				440446005757B5571CE4FA4E9E88027D /* UICKeyChainStore-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F77FD510796C3AED37B2C8AC35A552A3 /* Headers */ = {
+		7B7B7ED0E1B4E5F417B30BE0F0E33392 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42ABC984B93F27F9E1ABDD157997A7AE /* Pods-unique_device_id-umbrella.h in Headers */,
+				BA844DFD3AD93880D70987E612576761 /* Pods-unique_device_id-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7249B3061B88C950AE62809AE880E4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6C658200AD1E7EED03EE56561F8E82 /* DeviceIdSwiftImport.h in Headers */,
+				DC3686271FA7649CC430F14EED8BDA94 /* shumeiDevice_Id.h in Headers */,
+				93AD3301F29DF8270D740E181BAA517C /* shumeiDevice_Id-umbrella.h in Headers */,
+				FC4C4992B48D8517CD8565A9501B6555 /* SmAntiFraud.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,35 +302,55 @@
 /* Begin PBXNativeTarget section */
 		573300FBECACA38740727866A03FE77B /* shumeiDevice_Id */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 096CB82DA9F7BC4ADEC73566B7023DAA /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */;
+			buildConfigurationList = F0F070C95FABD344C1F9552EEF8D5937 /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */;
 			buildPhases = (
-				C640EEE263B1F522178B6FB53A5DAAF9 /* Headers */,
-				469265F827BF5D297DB6309A6327057D /* Sources */,
-				887920F0310484B18892E197A70CB0E4 /* Frameworks */,
-				3764798E2C8402A5592ED3B74712B8EF /* Resources */,
+				F7249B3061B88C950AE62809AE880E4D /* Headers */,
+				F6E2D15955B171BB7F37EF58E66ADBB7 /* Sources */,
+				32FE861BEC99F1C58442A02BEE8C9527 /* Frameworks */,
+				B56A93A7C1CF81A22845A80427834E52 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5E25AC3050CE5C05FD81E4212BF56CED /* PBXTargetDependency */,
 			);
 			name = shumeiDevice_Id;
 			productName = shumeiDevice_Id;
 			productReference = 9333F74D830614CA2521F32BF571A29F /* shumeiDevice_Id */;
 			productType = "com.apple.product-type.framework";
 		};
-		E03AC65200271D17983AC36415EFBA67 /* Pods-unique_device_id */ = {
+		7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C668131C4D21AF2ED2EB3F9A3C422702 /* Build configuration list for PBXNativeTarget "Pods-unique_device_id" */;
+			buildConfigurationList = BB0E3666CA9B50E23658E19FA7AD74C4 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */;
 			buildPhases = (
-				F77FD510796C3AED37B2C8AC35A552A3 /* Headers */,
-				4400D6D8EF5BDB4DC3FE9DEFDB6F2CE4 /* Sources */,
-				51FDA5171381C82AD75045F570C604D9 /* Frameworks */,
-				4B311DCDE22FA18EECA3EEF9395A1F8B /* Resources */,
+				416D6F340B5419B731093E649F562C94 /* Headers */,
+				F94642F1D347A9E5A289622EB99F1ED7 /* Sources */,
+				B961204F6F46EBC206804110B045E984 /* Frameworks */,
+				366D9055EA6AD800A0E9628C69A5CC68 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				53AC9708A096526CDD53F789ED3061F8 /* PBXTargetDependency */,
+			);
+			name = UICKeyChainStore;
+			productName = UICKeyChainStore;
+			productReference = A0A4D131DB063279AE8AF52001C682FE /* UICKeyChainStore */;
+			productType = "com.apple.product-type.framework";
+		};
+		E03AC65200271D17983AC36415EFBA67 /* Pods-unique_device_id */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBD9729D02C7D6342D519EB151F85D1 /* Build configuration list for PBXNativeTarget "Pods-unique_device_id" */;
+			buildPhases = (
+				7B7B7ED0E1B4E5F417B30BE0F0E33392 /* Headers */,
+				DCE84724C4944610886B063EE9B6C865 /* Sources */,
+				EDD41F5EA5921FD15CD1FE1DDB1B3E4B /* Frameworks */,
+				2AE690294BBE3AF34350BE1CB1C82DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167A2997CF92DCE8591F0B17FAEDEBC9 /* PBXTargetDependency */,
+				1737ACD3D97320DD31C7B6B0D1D03047 /* PBXTargetDependency */,
 			);
 			name = "Pods-unique_device_id";
 			productName = Pods_unique_device_id;
@@ -259,8 +363,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -271,25 +375,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3045732F487E78B9ABED1CA112F47ADC /* Products */;
+			productRefGroup = 281E2CF4563EEDC6EF1646041488D298 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E03AC65200271D17983AC36415EFBA67 /* Pods-unique_device_id */,
 				573300FBECACA38740727866A03FE77B /* shumeiDevice_Id */,
+				7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3764798E2C8402A5592ED3B74712B8EF /* Resources */ = {
+		2AE690294BBE3AF34350BE1CB1C82DC3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B311DCDE22FA18EECA3EEF9395A1F8B /* Resources */ = {
+		366D9055EA6AD800A0E9628C69A5CC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56A93A7C1CF81A22845A80427834E52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,113 +411,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4400D6D8EF5BDB4DC3FE9DEFDB6F2CE4 /* Sources */ = {
+		DCE84724C4944610886B063EE9B6C865 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A936C81F6A2D7AA7266AF966F52669E /* Pods-unique_device_id-dummy.m in Sources */,
+				6D8A0371A1717162A957D811C0038450 /* Pods-unique_device_id-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		469265F827BF5D297DB6309A6327057D /* Sources */ = {
+		F6E2D15955B171BB7F37EF58E66ADBB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA62F879A0536DFB8CBEEFB72A8BDC5C /* DeviceIdSwiftImport.m in Sources */,
-				26C7C36601C87FF720614DF2C531F9AE /* shumeiDevice_Id-dummy.m in Sources */,
+				5B382480CABA4A4B645E1AD43816C212 /* DeviceIdSwiftImport.m in Sources */,
+				077AFB0FFF451DCA5F34BB429DB3303C /* shumeiDevice_Id-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94642F1D347A9E5A289622EB99F1ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA1531C37CC4D5C182E21E54172B085 /* UICKeyChainStore.m in Sources */,
+				69572A62519B65EACBC970AF6E357C96 /* UICKeyChainStore-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		53AC9708A096526CDD53F789ED3061F8 /* PBXTargetDependency */ = {
+		167A2997CF92DCE8591F0B17FAEDEBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = 7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */;
+			targetProxy = ADEB501F2177A69CC646A0F69AD9871C /* PBXContainerItemProxy */;
+		};
+		1737ACD3D97320DD31C7B6B0D1D03047 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = shumeiDevice_Id;
 			target = 573300FBECACA38740727866A03FE77B /* shumeiDevice_Id */;
-			targetProxy = 8A83373F5CC85FE8D60D794369579B4C /* PBXContainerItemProxy */;
+			targetProxy = 705CA913B4B6F94DC9B585B4DAE43307 /* PBXContainerItemProxy */;
+		};
+		5E25AC3050CE5C05FD81E4212BF56CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = 7406ECC476A62C8FA502AD0E8D1240BE /* UICKeyChainStore */;
+			targetProxy = 921146B1B296E1E5E91274B386E02764 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4B43E5853C4C5C0AFDB1BFA965671EAD /* Release */ = {
+		45F3F07463EB38AB28DD90A0EAC44284 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B60688D76F6451826DE916B9184ACB6F /* Pods-unique_device_id.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		601C1944CE69BA5A5DE931D33EDCE7C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4780470D03A6F60A256B81A487AA920A /* Pods-unique_device_id.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		66047C859EFF1DB7D026C8AD5C09A9A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D409010F3A16AB8E8822BF8FB2932A7 /* shumeiDevice_Id.release.xcconfig */;
+			baseConfigurationReference = 6458C63FFE6737CAF2EA2C3499425825 /* shumeiDevice_Id.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -427,6 +485,7 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_MODULE_NAME = shumeiDevice_Id;
 				PRODUCT_NAME = shumeiDevice_Id;
 				SDKROOT = iphoneos;
@@ -440,11 +499,10 @@
 			};
 			name = Release;
 		};
-		7B6D11FE37F6EBFC11EFD13B1916D7BA /* Debug */ = {
+		6A33B190BB2E0B438BC09B3A5222EAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A174BD64E68EEA4D7843270AE1A025F8 /* shumeiDevice_Id.debug.xcconfig */;
+			baseConfigurationReference = 634BC9067EEDC0EF71C67673E132CE8D /* UICKeyChainStore.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -453,30 +511,94 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id.modulemap";
-				PRODUCT_MODULE_NAME = shumeiDevice_Id;
-				PRODUCT_NAME = shumeiDevice_Id;
+				MODULEMAP_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = UICKeyChainStore;
+				PRODUCT_NAME = UICKeyChainStore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -529,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -542,94 +664,191 @@
 			};
 			name = Debug;
 		};
-		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+		77A77BF152A13C1B2F7499A657638B70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE0064C451AAA146028E37E0E30F008 /* UICKeyChainStore.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UICKeyChainStore/UICKeyChainStore.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = UICKeyChainStore;
+				PRODUCT_NAME = UICKeyChainStore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B483CE0E0995CA5ACE658C57992703A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC16CB34CE0DA468494A4A07D813A7A0 /* shumeiDevice_Id.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/shumeiDevice_Id/shumeiDevice_Id.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = shumeiDevice_Id;
+				PRODUCT_NAME = shumeiDevice_Id;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B54EA4C8C7ED13C1F13700228473E431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60688D76F6451826DE916B9184ACB6F /* Pods-unique_device_id.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		D6919E2539A93035B50F39A9141BAEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4780470D03A6F60A256B81A487AA920A /* Pods-unique_device_id.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		096CB82DA9F7BC4ADEC73566B7023DAA /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B6D11FE37F6EBFC11EFD13B1916D7BA /* Debug */,
-				66047C859EFF1DB7D026C8AD5C09A9A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
-				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C668131C4D21AF2ED2EB3F9A3C422702 /* Build configuration list for PBXNativeTarget "Pods-unique_device_id" */ = {
+		5BBD9729D02C7D6342D519EB151F85D1 /* Build configuration list for PBXNativeTarget "Pods-unique_device_id" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				601C1944CE69BA5A5DE931D33EDCE7C4 /* Debug */,
-				4B43E5853C4C5C0AFDB1BFA965671EAD /* Release */,
+				D6919E2539A93035B50F39A9141BAEE1 /* Debug */,
+				B54EA4C8C7ED13C1F13700228473E431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0E3666CA9B50E23658E19FA7AD74C4 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A77BF152A13C1B2F7499A657638B70 /* Debug */,
+				6A33B190BB2E0B438BC09B3A5222EAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F070C95FABD344C1F9552EEF8D5937 /* Build configuration list for PBXNativeTarget "shumeiDevice_Id" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B483CE0E0995CA5ACE658C57992703A8 /* Debug */,
+				45F3F07463EB38AB28DD90A0EAC44284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

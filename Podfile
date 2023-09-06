@@ -7,6 +7,15 @@ target 'unique_device_id' do
 
   # Pods for unique_device_id
   use_frameworks! :linkage => :static
+  pod "UICKeyChainStore"
    pod 'shumeiDevice_Id', :path => "./"
 # pod 'Unique_Device_Id'
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings["ONLY_ACTIVE_ARCH"] = "YES"
+    end
+  end
+end
+
 end

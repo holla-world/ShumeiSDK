@@ -1,16 +1,24 @@
 PODS:
-  - shumeiDevice_Id (1.0.5)
+  - shumeiDevice_Id (1.0.5):
+    - UICKeyChainStore
+  - UICKeyChainStore (2.2.1)
 
 DEPENDENCIES:
   - shumeiDevice_Id (from `./`)
+  - UICKeyChainStore
+
+SPEC REPOS:
+  trunk:
+    - UICKeyChainStore
 
 EXTERNAL SOURCES:
   shumeiDevice_Id:
     :path: "./"
 
 SPEC CHECKSUMS:
-  shumeiDevice_Id: ec0b2d2bcbb36c1dda6fc71225fdfd197b079b2d
+  shumeiDevice_Id: 7c71ca22d9139a97612aec4057ec96d897d4797c
+  UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
 
-PODFILE CHECKSUM: a2aaef87bac122d0a180bd9fd6eda5cacd01a1f2
+PODFILE CHECKSUM: 3931543b2e64ba0a6b1f56305f3de2a026fbd7af
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
