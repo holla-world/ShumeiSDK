@@ -17,8 +17,8 @@
 		687361CC34CCA894C6B564AE7C23C244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		69572A62519B65EACBC970AF6E357C96 /* UICKeyChainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C249BDE7E14A7F3CF42FFBC7B76DC /* UICKeyChainStore-dummy.m */; };
 		6D8A0371A1717162A957D811C0038450 /* Pods-unique_device_id-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B317F2464111B3171720A800EE553808 /* Pods-unique_device_id-dummy.m */; };
-		84A7FB712BA035E100141ECB /* SmAntiFraud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7FB702BA035E100141ECB /* SmAntiFraud.framework */; };
-		84A7FB722BA035E200141ECB /* SmAntiFraud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7FB702BA035E100141ECB /* SmAntiFraud.framework */; };
+		84A7FB742BA0397A00141ECB /* SmAntiFraud.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7FB732BA0397A00141ECB /* SmAntiFraud.xcframework */; };
+		84A7FB752BA0397A00141ECB /* SmAntiFraud.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7FB732BA0397A00141ECB /* SmAntiFraud.xcframework */; };
 		93AD3301F29DF8270D740E181BAA517C /* shumeiDevice_Id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8B2CAC05DEADE4DB761B3FBDDD17B3 /* shumeiDevice_Id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA844DFD3AD93880D70987E612576761 /* Pods-unique_device_id-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D93EBAD77C817AF863B4A005CF374BD5 /* Pods-unique_device_id-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC3686271FA7649CC430F14EED8BDA94 /* shumeiDevice_Id.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DAAB8FC95431CC481A38DB5E9E5CF8 /* shumeiDevice_Id.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -67,7 +67,7 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		750793F934A7C975BA04C7306B31E6E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7A12EFCE479AE7906837AF8EBB6076BC /* shumeiDevice_Id-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "shumeiDevice_Id-dummy.m"; sourceTree = "<group>"; };
-		84A7FB702BA035E100141ECB /* SmAntiFraud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SmAntiFraud.framework; path = unique_device_id/Class/SmAntiFraud.framework; sourceTree = "<group>"; };
+		84A7FB732BA0397A00141ECB /* SmAntiFraud.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SmAntiFraud.xcframework; path = unique_device_id/Class/SmAntiFraud.xcframework; sourceTree = "<group>"; };
 		85DAAB8FC95431CC481A38DB5E9E5CF8 /* shumeiDevice_Id.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shumeiDevice_Id.h; path = unique_device_id/Class/shumeiDevice_Id.h; sourceTree = "<group>"; };
 		8B564F401D6B7EB3D2B57059E1138B4C /* Pods-unique_device_id-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-unique_device_id-Info.plist"; sourceTree = "<group>"; };
 		8C3C249BDE7E14A7F3CF42FFBC7B76DC /* UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A7FB752BA0397A00141ECB /* SmAntiFraud.xcframework in Frameworks */,
 				29D0B284DEE872EB02249B9C790D6853 /* Foundation.framework in Frameworks */,
-				84A7FB722BA035E200141ECB /* SmAntiFraud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A7FB742BA0397A00141ECB /* SmAntiFraud.xcframework in Frameworks */,
 				2F525FF961F53C939073CAC228183F6D /* Foundation.framework in Frameworks */,
-				84A7FB712BA035E100141ECB /* SmAntiFraud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +175,7 @@
 		A23961169B53A53B5B1847AB6C555AD5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84A7FB702BA035E100141ECB /* SmAntiFraud.framework */,
+				84A7FB732BA0397A00141ECB /* SmAntiFraud.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

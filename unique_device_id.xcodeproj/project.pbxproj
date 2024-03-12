@@ -13,6 +13,8 @@
 		848B5A3B281BD0A6006809CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848B5A39281BD0A6006809CC /* Main.storyboard */; };
 		848B5A3D281BD0A7006809CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848B5A3C281BD0A7006809CC /* Assets.xcassets */; };
 		848B5A40281BD0A7006809CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848B5A3E281BD0A7006809CC /* LaunchScreen.storyboard */; };
+		84A7FB772BA03B1700141ECB /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7FB762BA03B1700141ECB /* IOKit.framework */; };
+		84A7FB792BA03B5600141ECB /* SmAntiFraud.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7FB782BA03B5600141ECB /* SmAntiFraud.xcframework */; };
 		913170665E31905F4E23BFD9 /* Pods_unique_device_id.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F123FDC1B934DDB8A6CDE59 /* Pods_unique_device_id.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		848B5A3C281BD0A7006809CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848B5A3F281BD0A7006809CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848B5A41281BD0A7006809CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A7FB762BA03B1700141ECB /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		84A7FB782BA03B5600141ECB /* SmAntiFraud.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SmAntiFraud.xcframework; path = unique_device_id/Class/SmAntiFraud.xcframework; sourceTree = "<group>"; };
 		8F123FDC1B934DDB8A6CDE59 /* Pods_unique_device_id.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unique_device_id.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC670BA4B4C42D25A8EE7D2B /* Pods-unique_device_id.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unique_device_id.release.xcconfig"; path = "Target Support Files/Pods-unique_device_id/Pods-unique_device_id.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A7FB792BA03B5600141ECB /* SmAntiFraud.xcframework in Frameworks */,
+				84A7FB772BA03B1700141ECB /* IOKit.framework in Frameworks */,
 				913170665E31905F4E23BFD9 /* Pods_unique_device_id.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +92,8 @@
 		8F79C0A731D4629D6B1CF520 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84A7FB782BA03B5600141ECB /* SmAntiFraud.xcframework */,
+				84A7FB762BA03B1700141ECB /* IOKit.framework */,
 				8F123FDC1B934DDB8A6CDE59 /* Pods_unique_device_id.framework */,
 			);
 			name = Frameworks;

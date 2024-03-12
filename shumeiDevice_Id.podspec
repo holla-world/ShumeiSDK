@@ -17,7 +17,7 @@
  s.library         = "sqlite3"
  s.library         = "libresolv"
  s.library         = "z"
- s.frameworks       = "SystemConfiguration","AdSupport","CoreMotion","Security"
+ s.frameworks       = "SystemConfiguration","AdSupport","CoreMotion","Security", "IOKit.framework"
  s.ios.deployment_target    = '10.0'
  s.ios.vendored_framework = 'unique_device_id/Class/*.framework'
  s.dependency "UICKeyChainStore"

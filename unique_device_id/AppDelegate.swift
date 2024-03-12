@@ -7,6 +7,7 @@
 
 import UIKit
 import shumeiDevice_Id
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

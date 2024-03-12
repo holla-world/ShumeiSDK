@@ -9,6 +9,7 @@
 #import <SmAntiFraud/SmAntiFraud.h>
 #import <UICKeyChainStore/UICKeyChainStore.h>
 
+
 @interface DeviceIdSwiftImport()<ServerSmidProtocol> {
     
 }
@@ -19,6 +20,7 @@
 + (void)updateAppId:(NSString *)appId{
     NSString * sid = [UICKeyChainStore stringForKey:@"smServerId"];
     if (sid == NULL) {
+        
         SmOption *options = [[SmOption alloc] init];
         [options setAppId:appId];
         NSString* host = @"https://shumei.servicecloudweb.com";
