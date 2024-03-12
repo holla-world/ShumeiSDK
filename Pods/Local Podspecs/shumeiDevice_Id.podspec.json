@@ -34,10 +34,9 @@
     "z"
   ],
   "public_header_files": [
-    "unique_device_id/Class/*.h",
-    "SmAntiFraud.xcframework/ios-arm64/SmAntiFraud.framework/Headers/*.h"
+    "unique_device_id/Class/*.h"
   ],
-  "source_files": "unique_device_id/Class/*.m",
+  "source_files": "unique_device_id/Class/*",
   "dependencies": {
     "UICKeyChainStore": [
 

@@ -24,10 +24,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   # specify header files
-  s.public_header_files = ['unique_device_id/Class/*.h', 'SmAntiFraud.xcframework/ios-arm64/SmAntiFraud.framework/Headers/*.h']
+  s.public_header_files = [
+    'unique_device_id/Class/*.h',
+    #'SmAntiFraud.xcframework/ios-arm64/SmAntiFraud.framework/Headers/*.h'
+  ]
 
   # specify source files
-  s.source_files = 'unique_device_id/Class/*.m'
+  s.source_files = 'unique_device_id/Class/*'
 
   s.dependency "UICKeyChainStore"
 end
