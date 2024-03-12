@@ -11,7 +11,7 @@
 #endif
 
 #import "shumeiDevice_Id.h"
-#import "SmAntiFraud.h"
+#import <SmAntiFraud/SmAntiFraud.h>
 #import "DeviceIdSwiftImport.h"
 
 FOUNDATION_EXPORT double shumeiDevice_IdVersionNumber;

@@ -13,5 +13,5 @@ FOUNDATION_EXPORT const unsigned char shumeiDevice_IdVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <DWH/PublicHeader.h>
 
 
-#import <SmAntiFraud.h>
+#import <SmAntiFraud/SmAntiFraud.h>
 
