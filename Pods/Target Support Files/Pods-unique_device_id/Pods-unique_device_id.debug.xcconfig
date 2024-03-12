@@ -1,9 +1,8 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/UICKeyChainStore" "${PODS_CONFIGURATION_BUILD_DIR}/shumeiDevice_Id"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/UICKeyChainStore" "${PODS_CONFIGURATION_BUILD_DIR}/shumeiDevice_Id" "${PODS_ROOT}/.." "${PODS_XCFRAMEWORKS_BUILD_DIR}/shumeiDevice_Id"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/UICKeyChainStore/UICKeyChainStore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/shumeiDevice_Id/shumeiDevice_Id.framework/Headers"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../unique_device_id/Class"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"SmAntiFraud" -l"z" -framework "AdSupport" -framework "CoreMotion" -framework "Security" -framework "SystemConfiguration" -framework "UICKeyChainStore" -framework "shumeiDevice_Id"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"resolv" -l"sqlite3" -l"z" -framework "AdSupport" -framework "CoreMotion" -framework "IOKit" -framework "Security" -framework "SmAntiFraud" -framework "SystemConfiguration" -framework "UICKeyChainStore" -framework "shumeiDevice_Id"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

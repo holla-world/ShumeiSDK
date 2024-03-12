@@ -1,5 +1,5 @@
 PODS:
-  - shumeiDevice_Id (1.0.5):
+  - shumeiDevice_Id (1.0.7):
     - UICKeyChainStore
   - UICKeyChainStore (2.2.1)
 
@@ -16,9 +16,9 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  shumeiDevice_Id: 7c71ca22d9139a97612aec4057ec96d897d4797c
+  shumeiDevice_Id: 2bceef215ae3b74b7c4264c8704686d60824e9dd
   UICKeyChainStore: ba3bff2c762b12db1e516f395c837dd25298b05e
 
 PODFILE CHECKSUM: 3931543b2e64ba0a6b1f56305f3de2a026fbd7af
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

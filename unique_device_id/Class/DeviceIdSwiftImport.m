@@ -6,8 +6,8 @@
 //
 
 #import "DeviceIdSwiftImport.h"
-#import <SmAntiFraud/SmAntiFraud.h>
 #import <UICKeyChainStore/UICKeyChainStore.h>
+#import <SmAntiFraud/SmAntiFraud.h>
 
 
 @interface DeviceIdSwiftImport()<ServerSmidProtocol> {
